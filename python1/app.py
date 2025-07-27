@@ -1,2 +1,4 @@
-phrase = "Giraffe Academy"
-print(phrase.replace("Giraffe", "Elephant"))
+from math import *
+
+my_num = 5
+print(sqrt(25))
