@@ -1,4 +1,4 @@
-from math import *
+name = input('enter your name: ')
+age = input('enter your age: ')
 
-my_num = 5
-print(sqrt(25))
+print("Hello " + name + '! You are ' + age )
