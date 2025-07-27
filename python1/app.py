@@ -1,5 +1,5 @@
-def say_hi(name, age):
-    print("Hello " + name.capitalize() + ", You are " + str(age))
+def cube(num):
+    return num * num * num
 
-say_hi("Mike", 23)
-say_hi("jo", 23)
+result = cube(4)
+print(result)
