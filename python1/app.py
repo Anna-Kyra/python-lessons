@@ -1,5 +1,9 @@
-def cube(num):
-    return num * num * num
+is_male = True
+is_tall = False
 
-result = cube(4)
-print(result)
+if is_male and is_tall:
+    print("You tall man")
+elif is_male and not is_tall:
+    print("You short man")
+else:
+    print("not male or tall")
