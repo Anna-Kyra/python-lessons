@@ -1,5 +1,9 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter another number: ")
+color = input("Enter your favourite color: ")
+plural_noun = input("Enter a plural noun: ")
+celebrity = input("Enter your favourite celebrity: ")
 
-result = float(num1) + float(num2)
-print(result)
+
+
+print('Roses are' + color)
+print(plural_noun + ' are blue')
+print('I love ' + celebrity)
