@@ -1,7 +1,7 @@
-monthConvertions = {
-    "Jan": "January",
-    "Feb": "February",
-    "Mar": "March"
-}
+i = 1
 
-print(monthConvertions.get("adg", "Not a valid key"))
+while i <= 10:
+    print(i)
+    i += 1
+
+print("Done with loop")
