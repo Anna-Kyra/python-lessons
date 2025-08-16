@@ -1,9 +1,9 @@
-is_male = True
-is_tall = False
+def max_number(number1, number2, number3):
+    if number1 >= number2 and number1 >= number3:
+        return number1
+    elif number2 >= number1 and number2 >= number3:
+        return number2
+    else:
+        return number3
 
-if is_male and is_tall:
-    print("You tall man")
-elif is_male and not is_tall:
-    print("You short man")
-else:
-    print("not male or tall")
+print(max_number(300, 4, 50))
