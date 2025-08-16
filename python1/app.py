@@ -1,9 +1,14 @@
-def max_number(number1, number2, number3):
-    if number1 >= number2 and number1 >= number3:
-        return number1
-    elif number2 >= number1 and number2 >= number3:
-        return number2
-    else:
-        return number3
+number1 = float(input("Enter first number: ")) # Met float erachter kan je het antwoord meteen naar een float veranderen
+operator = input("Enter operator: ")
+number2 = float(input("Enter second number: "))
 
-print(max_number(300, 4, 50))
+if operator == "+":
+    print(number1 + number2)
+elif operator == "-":
+    print(number1 - number2)
+elif operator == "/":
+    print(number1 / number2)
+elif operator == "*":
+    print(number1 * number2)
+else:
+    print("Invalid operator") # Basically de error
